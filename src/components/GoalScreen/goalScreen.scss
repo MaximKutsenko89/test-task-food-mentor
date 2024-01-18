@@ -1,0 +1,40 @@
+@import "../../scss/vars.scss";
+.goal {
+  &__inner {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 16px;
+  }
+  &__item {
+    width: 172px;
+    height: 172px;
+    display: flex;
+    align-items: center;
+    border: $border;
+    border-radius: 21px;
+    background: linear-gradient(214deg, #f1f1f1 12.33%, #fff 69.93%);
+    padding: 0 0 0 10px;
+    overflow: hidden;
+    cursor: pointer;
+    @media (max-width: $mobileBp) {
+      width: 100%;
+      justify-content: space-around;
+      height: 75px;
+    }
+    &:hover {
+      background: #eee;
+    }
+  }
+  &__img {
+    height: 100%;
+    object-fit: cover;
+  }
+  &__title {
+    font-size: 16.679px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 22.933px;
+    letter-spacing: 0.208px;
+  }
+}

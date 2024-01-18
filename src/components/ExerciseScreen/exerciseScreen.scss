@@ -1,0 +1,48 @@
+@import "../../scss/vars.scss";
+
+.exercise-screen {
+  &__inner {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    flex-wrap: wrap;
+
+    @media (max-width: $mobileBp) {
+      justify-content: center;
+      flex-direction: column;
+    }
+  }
+  &__button-wrap {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    @media (max-width: $mobileBp) {
+      width: 100%;
+    }
+  }
+  &__img-wrap img {
+    @media (max-width: $mobileBp) {
+      height: 100px;
+    }
+  }
+  &__button {
+    width: 172px;
+    height: 80px;
+    padding: 0 30px 0 15px;
+    border: $border;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0.2px;
+    border-radius: 20px;
+    cursor: pointer;
+    @media (max-width: $mobileBp) {
+      width: 100%;
+    }
+    &.active {
+      background: #eee;
+    }
+  }
+}

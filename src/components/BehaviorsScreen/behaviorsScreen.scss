@@ -1,0 +1,36 @@
+@import "../../scss/vars.scss";
+.behaviors-screen {
+  &__wrap {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin: 0 0 130px 0;
+    @media (max-width: $mobileBp) {
+      gap: 10px;
+    }
+  }
+  &__item {
+    display: flex;
+    width: 172px;
+    height: 60px;
+    padding: 12px 24px 12px 15px;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    border-radius: 15px;
+    border: $border;
+    cursor: pointer;
+    @media (max-width: $mobileBp) {
+      width: 100%;
+    }
+    &.active {
+      background: #eee;
+    }
+  }
+  &__title {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0.3px;
+  }
+}

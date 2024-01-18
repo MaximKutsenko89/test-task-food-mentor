@@ -1,0 +1,25 @@
+.header {
+  padding: 9px 0;
+  &__inner {
+    width: fit-content;
+    margin: 0 auto;
+  }
+  &__title {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    color: #374234;
+
+    img:first-child {
+      margin: 0 10px 0 0;
+    }
+    img:last-child {
+      margin: 0 10px 0 0;
+    }
+  }
+  &__back-btn {
+    cursor: pointer;
+  }
+}
