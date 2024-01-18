@@ -1,4 +1,3 @@
-import React from "react";
 import clsx from "clsx";
 import cross from "./images/cross.svg";
 import donut from "./images/donut.svg";

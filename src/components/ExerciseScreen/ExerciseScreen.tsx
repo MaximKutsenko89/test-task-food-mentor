@@ -1,4 +1,3 @@
-import React from "react";
 import girl from "./images/girl.png";
 import "./exerciseScreen.scss";
 import clsx from "clsx";

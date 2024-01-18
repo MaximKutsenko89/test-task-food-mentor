@@ -1,4 +1,3 @@
-import React from "react";
 import "./header.scss";
 import backIcon from "../../assets/back.svg";
 import pearIcon from "../../assets/pear.png";

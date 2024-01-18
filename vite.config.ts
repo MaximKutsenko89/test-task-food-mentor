@@ -7,5 +7,6 @@ export default defineConfig({
     port: 3001,
     open: true,
   },
+  base: "/test-task-food-mentor/",
   plugins: [react()],
 });
